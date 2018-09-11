@@ -1,4 +1,5 @@
 let deck = document.querySelector(".deck");
+let restart = document.querySelector(".fa-repeat");
 let openCards = [];
 /*
  * Create a list that holds all of your cards
@@ -98,5 +99,6 @@ function checkMatch() {
      if (openCards.length > 1) {
         checkMatch();
      }
-     
  });
+
+ restart.addEventListener("click", initGame);
