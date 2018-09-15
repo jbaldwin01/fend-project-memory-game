@@ -15,3 +15,5 @@ if they don't match they will be flipped face down after a short pause. The game
 are matched. At the end of the game your star rating and elapsed time will be displayed in a modal. The modal
 will ask if you would like to play again.  If you click 'yes' the cards will be reshuffled and the timer and
 star rating will be reset. You can click the `restart` button at anytime to restart the game.
+
+[Click here to play](https://jbaldwin01.github.io/fend-project-memory-game/)
