@@ -45,6 +45,7 @@ initGame();
  * Initialize variables, shuffle cards and build the card deck.
  */
 function initGame() {
+    openCards = [];
     matchCount = 0;
     moves = 0;
     starCount = 3;
